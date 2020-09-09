@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.24)  24 FEB 2020 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.1)  9 SEP 2020 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv_en_american.tex
 (./cv_en_american.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -26,36 +26,28 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \outerbordwidth=\skip43
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -66,8 +58,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen106
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 44.
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip45
 \cftbeforetoctitleskip=\skip46
 \cftaftertoctitleskip=\skip47
@@ -94,8 +86,8 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftbeforefigskip=\skip68
 \cftfigindent=\skip69
 \cftfignumwidth=\skip70
-\c@lofdepth=\count88
-\c@lotdepth=\count89
+\c@lofdepth=\count87
+\c@lotdepth=\count88
 \cftbeforelottitleskip=\skip71
 \cftafterlottitleskip=\skip72
 \cftbeforetabskip=\skip73
@@ -103,15 +95,15 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cfttabnumwidth=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count90
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
 \mult@box=\box26
 \multicol@leftmargin=\dimen107
-\c@unbalance=\count91
-\c@collectmore=\count92
-\doublecol@number=\count93
-\multicoltolerance=\count94
-\multicolpretolerance=\count95
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
 \full@width=\dimen108
 \page@free=\dimen109
 \premulticols=\dimen110
@@ -142,14 +134,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count96
-\c@finalcolumnbadness=\count97
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
 \last@try=\dimen113
 \multicolovershoot=\dimen114
 \multicolundershoot=\dimen115
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\mc@col@check@num=\count98
+\mc@col@check@num=\count97
 )
 (./cv_en_american.aux)
 \openout1 = `cv_en_american.aux'.
@@ -167,18 +159,18 @@ LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
+\scratchcounter=\count98
 \scratchdimen=\dimen116
 \scratchbox=\box52
-\nofMPsegments=\count100
-\nofMParguments=\count101
+\nofMPsegments=\count99
+\nofMParguments=\count100
 \everyMPshowfont=\toks14
-\MPscratchCnt=\count102
+\MPscratchCnt=\count101
 \MPscratchDim=\dimen117
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
 \everyMPtoPDFconversion=\toks15
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -195,6 +187,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
 
 ! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.86 ...San Francisco/Shenzhen/Paris}{}{2016-2020}
+                                                  
+? 
+! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
 l.86 ...San Francisco/Shenzhen/Paris}{}{2016-2020}
@@ -212,200 +210,223 @@ l.86 ...San Francisco/Shenzhen/Paris}{}{2016-2020}
 l.86 ...San Francisco/Shenzhen/Paris}{}{2016-2020}
                                                   
 ? 
+
+Overfull \hbox (19.65921pt too wide) in alignment at lines 86--86
+[] []
+ []
+
 ! Undefined control sequence.
-\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
-                                              {\cftnodots }\ifx \@tempa \@te...
-l.95 ...ntist at Lyft}{San Francisco}{}{2014-2016}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.95 ...ntist at Lyft}{San Francisco}{}{2014-2016}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.95 ...ntist at Lyft}{San Francisco}{}{2014-2016}
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.97 ...ntist at Lyft}{San Francisco}{}{2014-2016}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.107 ...rn at Lyft}{San Francisco}{}{Summer 2013}
+l.97 ...ntist at Lyft}{San Francisco}{}{2014-2016}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.107 ...rn at Lyft}{San Francisco}{}{Summer 2013}
+l.97 ...ntist at Lyft}{San Francisco}{}{2014-2016}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.107 ...rn at Lyft}{San Francisco}{}{Summer 2013}
+l.97 ...ntist at Lyft}{San Francisco}{}{2014-2016}
+                                                  
+? 
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.109 ...rn at Lyft}{San Francisco}{}{Summer 2013}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.115 ...}{Department of Computing}{}{2013 - 2014}
+l.109 ...rn at Lyft}{San Francisco}{}{Summer 2013}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.115 ...}{Department of Computing}{}{2013 - 2014}
+l.109 ...rn at Lyft}{San Francisco}{}{Summer 2013}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.115 ...}{Department of Computing}{}{2013 - 2014}
+l.109 ...rn at Lyft}{San Francisco}{}{Summer 2013}
+                                                  
+? 
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.117 ...}{Department of Computing}{}{2013 - 2014}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.125 ...Computer Science Department}{}{June 2012}
+l.117 ...}{Department of Computing}{}{2013 - 2014}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.125 ...Computer Science Department}{}{June 2012}
+l.117 ...}{Department of Computing}{}{2013 - 2014}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.125 ...Computer Science Department}{}{June 2012}
+l.117 ...}{Department of Computing}{}{2013 - 2014}
                                                   
 ? 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ! Undefined control sequence.
-\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
-                                              {\cftnodots }\ifx \@tempa \@te...
-l.132 ...and Technology Center (ESTEC)}{July 2012}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.132 ...and Technology Center (ESTEC)}{July 2012}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.132 ...and Technology Center (ESTEC)}{July 2012}
-                                                  
-? 
-[2]
-! Undefined control sequence.
-\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
-                                              {\cftnodots }\ifx \@tempa \@te...
-l.148 ...ience in Advanced Computing}{2013 - 2014}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.148 ...ience in Advanced Computing}{2013 - 2014}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.148 ...ience in Advanced Computing}{2013 - 2014}
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.128 ...Computer Science Department}{}{June 2012}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.151 ...e}{Supaero Graduate Program}{2011 - 2014}
+l.128 ...Computer Science Department}{}{June 2012}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.151 ...e}{Supaero Graduate Program}{2011 - 2014}
+l.128 ...Computer Science Department}{}{June 2012}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.151 ...e}{Supaero Graduate Program}{2011 - 2014}
+l.128 ...Computer Science Department}{}{June 2012}
+                                                  
+? 
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.135 ...and Technology Center (ESTEC)}{July 2012}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.158 ...Hoche}{Versailles, France }{ }{2009-2011}
+l.135 ...and Technology Center (ESTEC)}{July 2012}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.158 ...Hoche}{Versailles, France }{ }{2009-2011}
+l.135 ...and Technology Center (ESTEC)}{July 2012}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.158 ...Hoche}{Versailles, France }{ }{2009-2011}
+l.135 ...and Technology Center (ESTEC)}{July 2012}
                                                   
 ? 
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 165--169
-[]$[]$ 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 186--189
-[]$[]$ 
- []
-
-
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 208--210
-[]$[]$ 
- []
-
-
-! LaTeX Error: \begin{itemize} on input line 145 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.150 ...ience in Advanced Computing}{2013 - 2014}
                                                   
-l.216 \end{document}
-                    
 ? 
-[3] (./cv_en_american.aux) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 145 (\begingroup)
-### bottom level 
+! Undefined control sequence.
+\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
+                                              {\cftnodots }\ifx \@tempa \@te...
+l.150 ...ience in Advanced Computing}{2013 - 2014}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.150 ...ience in Advanced Computing}{2013 - 2014}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.150 ...ience in Advanced Computing}{2013 - 2014}
+                                                  
+? 
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.153 ...e}{Supaero Graduate Program}{2011 - 2014}
+                                                  
+? 
+! Undefined control sequence.
+\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
+                                              {\cftnodots }\ifx \@tempa \@te...
+l.153 ...e}{Supaero Graduate Program}{2011 - 2014}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.153 ...e}{Supaero Graduate Program}{2011 - 2014}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.153 ...e}{Supaero Graduate Program}{2011 - 2014}
+                                                  
+? 
+! Undefined control sequence.
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.160 ...Hoche}{Versailles, France }{ }{2009-2011}
+                                                  
+? 
+! Undefined control sequence.
+\cftdotfill #1->\def \@tempa {#1}\def \@tempb 
+                                              {\cftnodots }\ifx \@tempa \@te...
+l.160 ...Hoche}{Versailles, France }{ }{2009-2011}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.160 ...Hoche}{Versailles, France }{ }{2009-2011}
+                                                  
+? 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.160 ...Hoche}{Versailles, France }{ }{2009-2011}
+                                                  
+? 
+[2] [3] (./cv_en_american.aux) ) 
 Here is how much of TeX's memory you used:
- 1991 strings out of 494953
- 26331 string characters out of 6180977
- 101534 words of memory out of 5000000
- 5308 multiletter control sequences out of 15000+600000
+ 1774 strings out of 494923
+ 23233 string characters out of 6180743
+ 94135 words of memory out of 5000000
+ 5128 multiletter control sequences out of 15000+600000
  8832 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 26i,10n,35p,316b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_en_american.pdf (3 pages, 104385 bytes).
+ 26i,10n,35p,347b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv_en_american.pdf (3 pages, 105083 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream

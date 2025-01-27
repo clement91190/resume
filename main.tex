@@ -1,0 +1,293 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Clement Jambou's CV},
+    pdfauthor={Clement Jambou},
+    pdfcreator={LaTeX},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0 cm + 0.00001 cm}{0 cm + 0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \begin{onecolentry}
+}{
+    \end{onecolentry}
+}
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \begin{center}
+        \fontsize{25 pt}{25 pt}\selectfont CLEMENT JAMBOU
+       
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{San Francisco, California}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\href{mailto:clem.jambou@gmail.com}{clem.jambou@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\href{https://www.linkedin.com/in/clementjambou/}{LinkedIn}}%
+      \end{center}
+    \end{header}
+
+    \section{Summary}
+    \begin{onecolentry}
+        Technical leader and entrepreneur with 10+ years experience in Robotics, Autonomous Systems, Data Science, Software Engineering, and Space Avionics. Proven track record of building and leading high-performing engineering teams across multiple countries, including founding and working at startups. Expertise in building and delivering products in self-driving systems, avionics software, and scalable testing and simulation frameworks    \end{onecolentry}
+
+    \section{Career Highlights}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item Designed autonomous robots (software and hardware) from drawing board to deployments of up to 30 units in warehouses
+            \item Led multiple engineering teams in Data Science, Software Engineering, Hardware Engineering across multiple industries(Tech, Robotics, Space) and countries ( US, France, Switzerland, China)
+            \item Grew Lyft data science team from 4 to 20+ while delivering critical marketplace algorithms
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Selected Experience}
+    \begin{twocolentry}{Aug 2024 -- Present}
+        \textbf{\href{https://cadbuildr.com}{CADBuildr}} \\
+        \textbf{CEO \& Founder} -- San Francisco, CA
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Founded CADBuildr to revolutionize CAD software with open-source and AI technologies
+            \item Developed and launched the first AI Agent for CAD, enabling natural language and multimodal interactions for 3D model generation
+            \item Built an open-source Python CAD library enabling programmatic 3D modeling with version control
+            \item Created a web-based CAD platform supporting text-to-CAD, image-to-CAD, and interactive model refinement
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.5cm}
+
+    \begin{twocolentry}{Nov 2023 -- Aug 2024}
+        \textbf{Exotrail} \\
+        \textbf{Software \& Avionics Manager} -- Paris, France
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Managed Avionics team developing embedded software for Spacevan autonomous satellite delivery vehicle
+            \item Led 5-person avionics team to release bi-monthly software updates
+            \item Implemented a complete Telecomand/Telemetry system facilitating collaboration work on the Spacevan vehicle
+            \item Implemented quality guidelines for the avionics team software and validation via a CI/CD system
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.5cm}
+
+    \begin{twocolentry}{Oct 2022 -- Nov 2023}
+        \textbf{Coactum} \\
+        \textbf{Software \& Avionics Manager} -- Bex, Switzerland
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Executive Committee Member leading software/avionics development for early-stage vehicle systems
+            \item Defined early-stage requirements and specifications for onboard software, firmware, and custom avionics
+            \item Proposed and implemented technical interfaces format and process for vehicle engineering teams
+            \item Developed hiring process for software engineering team
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.5cm}
+
+    \begin{twocolentry}{Jan 2021 -- Present}
+        \textbf{Mont Blanc Rockets} \\
+        \textbf{Data Science \& Software Engineering Consultant} -- Freelance
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Provided technical leadership and consulting services to companies across software, data science, and hardware engineering
+            \item Helped companies scale their engineering teams and improve technical processes
+            \item Delivered critical technical products in robotics, autonomous systems, and data science
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.5cm}
+
+    \begin{twocolentry}{2016 -- 2020}
+        \textbf{Unsupervised.ai} \\
+        \textbf{CEO} -- San Francisco, Shenzhen and Paris
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Co-founded robotics software company enabling factory digital transformation
+            \item Led 8-person team across 3 continents
+            \item Built from drawing board to production an autonomous robot fleet with 30-unit batch
+            \item Generated \$400k+ of revenue and raised \$1M in funding
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.5cm}
+
+    \begin{twocolentry}{2014 -- 2016}
+        \textbf{Lyft} \\
+        \textbf{Senior Data Scientist} -- San Francisco
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Led marketplace growth initiatives, mapping and self-driving development
+            \item Grew data science team from 4 to 20+ members
+            \item Built first simulation environment for entire cities improving business metrics
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Education}
+    \begin{twocolentry}{2013 -- 2014}
+        \textbf{Imperial College London}, MSc in Advanced Computing
+    \end{twocolentry}
+
+    \begin{twocolentry}{2011 -- 2014}
+        \textbf{Institut Superieur de l'Aeronautique et de l'Espace}, Supaero Graduate Program
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item BS in 2012
+            \item Major in Computer Science
+        \end{highlights}
+    \end{onecolentry}
+    \section{Skills}
+    \begin{onecolentry}
+        \textbf{Languages:} Python (Pandas, Numpy, Tensorflow, PyTorch), C/C++, JavaScript (React, NextJS), TypeScript
+    \end{onecolentry}
+
+    \begin{onecolentry}
+        \textbf{Tools:} Git, GitHub, AWS (S3, DynamoDB), PostgreSQL, GraphQL, GCloud
+    \end{onecolentry}
+
+    \begin{onecolentry}
+        \textbf{Languages:} French (native), English (bilingual, TOEFL-IBT: 105/120), German (intermediate)
+    \end{onecolentry}
+
+    \section{Awards \& Honors}
+    \begin{twocolentry}{2015}
+        \textbf{Speaker} at PyData Paris
+    \end{twocolentry}
+
+    \begin{twocolentry}{2012}
+        \textbf{1\textsuperscript{st} Prize}, ASME Student Design Competition
+    \end{twocolentry}
+
+    \begin{twocolentry}{2010}
+        \textbf{Junior Fermat Prize} in Mathematics
+    \end{twocolentry}
+
+    \begin{twocolentry}{2010}
+        \textbf{1\textsuperscript{st} Prize}, International Tournament of Young Mathematicians
+    \end{twocolentry}
+
+    \begin{twocolentry}{2008}
+        \textbf{2\textsuperscript{nd} Prize}, Academy of Versailles Mathematics Olympiads
+    \end{twocolentry}
+
+    \section{Interests}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item \textbf{Sports:} Running (Marathon: 2h33, UTMB Finisher), Soccer, Mountaineering (Denali summiter)
+            \item \textbf{Hobbies:} Robotics, Electronics, Cooking, Traveling
+            \item \textbf{Music:} Cello, Guitar
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+\end{document}
